@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
 
-echo "--- {}"
+cat << EOF
+---
+config_vars:
+  SIKULI_HOME: "/app/vendor/sikuli/sikuli-script.jar"
+EOF

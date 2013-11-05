@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
-# bin/compile <build-dir> <cache-dir>
 
-echo "-----> Nothing to do."
+BUILD_DIR=$1
+CACHE_DIR=$2
+
+SIKULI_URL=https://github.com/mkcp/sikuli-standalone.git
+
+echo "-----> Cloning Sikuli 1.0.1 to vendor/siklui."
+git clone $SIKULI_URL $BUILD_DIR/vendor/sikuli
