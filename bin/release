@@ -3,5 +3,5 @@
 cat << EOF
 ---
 config_vars:
-  SIKULI_HOME: "/app/vendor/sikuli/sikuli-script.jar"
+  SIKULI_HOME: "/app/vendor/sikuli/sikuli-script-1.0.1.jar"
 EOF
